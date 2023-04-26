@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume Portfolio</title>
+    <style>
+      /* basic styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 36px;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      /* layout */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .col {
+        flex-basis: 48%;
+      }
+      @media only screen and (max-width: 600px) {
+        .col {
+          flex-basis: 100%;
+        }
+      }
+      /* color scheme */
+      :root {
+        --primary-color: #333;
+        --secondary-color: #f7f7f7;
+        --accent-color: #ff6347;
+      }
+      body {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+      }
+      header {
+        background-color: var(--primary-color);
+      }
+      a {
+        color: var(--accent-color);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Name</h1>
+      <h2>Job Title</h2>
+      <p>Email: myemail@example.com | Phone: 123-456-7890 | LinkedIn: <a href="#">mylinkedinprofile</a></p>
+    </header>
+    <div class="container">
+      <section>
+        <h2>Professional Summary</h2>
+        <p>A brief summary of your professional experience and career goals.</p>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <div class="row">
+          <div class="col">
+            <h3>Job Title</h3>
+            <p><strong>Company Name</strong> | City, State | Month Year - Month Year</p>
+            <ul>
+              <li>Accomplishment 1</li>
+              <li>Accomplishment 2</li>
+              <li>Accomplishment 3</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Job Title</h3>
+            <p><strong>Company Name</strong> | City, State | Month Year - Month Year</p>
+            <
